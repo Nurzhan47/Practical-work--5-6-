@@ -68,7 +68,7 @@ for i in range(0,N):
 print(max)
 print(arr.index(max)+1)
 
-# 2)
+#2)
 N = int(input("size: "))
 arr = []
 arr2 = []
@@ -112,7 +112,7 @@ for i in range(0,10):
 print(sum)
 print(product)
 
-# 2)
+#2)
 N = int(input("size: "))
 arr = []
 temp = []
@@ -144,7 +144,7 @@ for i in range(0,10):
 print(sum)
 print(product)
 
-# 2)
+#2)
 N = int(input("size: "))
 arr = []
 sub=0
@@ -174,7 +174,7 @@ arr.reverse()
 print(arr)
 print('\n')
 #task10
-# 2)
+#2)
 arr = []
 arr2 = []
 for i in range (0,15):
@@ -202,3 +202,31 @@ for  i  in range(0,N):
             max=arr[i]
 print(max)
 print('\n')
+#task12
+N = int(input("Enter the size "))
+arr = []
+min = float('inf')
+for i in range(0,N):
+    arr.append(int(input()))
+for i in range(0,N):
+    if arr[i]%2!=0:
+        if min>arr[i]:
+            min=arr[i]
+print(min)
+
+#2)
+A =[]
+B =[]
+
+print("Enter numbers for list A")
+for i in range(0,10):
+    A.append(int(input()))
+print("Enter numbers for list B")
+for i in range(0,10):
+    B.append(int(input()))
+for i in range(0,10):
+    temp[i] = A[i]
+    A[i] =B[i]
+    B[i]=temp[i]
+print("Changed A: ", A)
+print("Changed B: ", B)
