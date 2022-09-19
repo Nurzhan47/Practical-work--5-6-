@@ -24,7 +24,7 @@ print("\n")
 
 def list_sort(t5):
     return sorted(map(abs, t5), reverse=True)
-t5_1 = [1,-2,3,-4,5,-6,7,8,-9,-10]
+t5_1 = [0,-42,133,-414,50,-16,-37,81,-92,253]
 print(list_sort(t5_1))
 print("\n")
 #task 6
